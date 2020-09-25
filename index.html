@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <head>
+        <style>
+            body{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                background-color: #85dcb8;
+            }
+            button{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                background-color: #41B3A3;
+                color: white;
+                width: 90px;
+                height: 40px;
+            }
+        </style>
+        <script type="text/javascript">
+        function callme()
+        {
+            var v = document.getElementById("username").value;
+            alert("Your username is "+v);
+        }
+        </script>
+    </head>
+    <body>
+        <div class="jumbotron text-centre" style="margin-bottom: 0px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: #E27863;"><h1 style="color: black;">FORM</h1></div>
+        <div class="container">
+            
+                <div class="col-sm-6">
+                    <label for="username">Username</label>
+                    <input type="text" id="username">
+                </div>
+                <div class="col-sm-6">
+                    <label for="password">Password</labe>
+                    <input type="password" id="password">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                
+                </div>
+                <div class="col-sm-3">
+                    <button onclick="callme();">Submit</button>
+                    </div>
+                    <div class="col-sm-5">
+                        
+                        </div>
+            </div>
+         
+        </div>
+        
+        
+        
+        
+    </body>
+</html>
